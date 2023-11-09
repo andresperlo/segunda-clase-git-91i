@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-height {
+  width: 18rem;
+}
+
+.img-principal img {
+  height: 75vh;
+}
+
+.card-height img {
+  height: 30vh;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .card-height {
+    width: 100%;
+  }
+
+  .img-principal img {
+    height: 100%;
+  }
+}
